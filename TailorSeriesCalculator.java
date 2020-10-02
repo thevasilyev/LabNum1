@@ -19,7 +19,7 @@ public class TailorSeriesCalculator {
             double calculatedSum = getTailorSum(eps, x);
 
             System.out.printf("Actual sum is: %.3f\n", actualSum);
-            System.out.printf("Calculated sum is: %.3f\n", actualSum);
+            System.out.printf("Calculated sum is: %.3f\n", calculatedSum);
 
         } catch (Exception ex) {
             System.out.println("Range error: " + ex);
